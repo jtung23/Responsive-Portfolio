@@ -2,10 +2,11 @@
 
 body {
 	height:auto;
+	width: 100%;
 }
 
 html {
-	width: 960px;
+	width: 100%;
 }
 
 h1 {
@@ -37,6 +38,7 @@ ul, h2, h3 {
 	padding: 20px;
 	border-width: 5px;
 	border-color: #cccccc;
+	width: 100%;
 }
 
 ul {
@@ -236,3 +238,59 @@ table {
 }
 
 /* END Portfolio */
+
+/* HW 2 */
+
+@media screen and (min-width:640px) {
+	h1 {
+		width: 100%;
+		display: block;
+		left: 0px;
+		text-align: center;
+		max-width: 640px;
+		border-collapse: collapse;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	h2 {
+		width: 85%;
+	}
+
+	ul {
+		float: none;
+		display: block;
+		right: -165px; 
+		top: 10px;
+
+	}
+	
+	#bottom-div {
+		width: 100%;
+		height: auto;
+
+	}
+	#main-content {
+		margin: 10px;
+		max-width: 640px;
+		left: 0px;
+		width: 95%;
+	}
+
+	#right-div {
+		width: 95%;
+	}
+	.top-div {
+		padding-left: 0;
+		padding-right: 0;
+		height: 100%;
+	}
+}
+
+@media screen and (min-width:768px) {
+
+}
+
+@media screen and (min-width:980px) {
+	
+}
