@@ -242,6 +242,10 @@ table {
 /* HW 2 */
 
 @media screen and (min-width:640px) {
+
+	body, html, #bottom-div, .top-div {
+		width: 640px;
+	}
 	h1 {
 		width: 100%;
 		display: block;
@@ -256,18 +260,23 @@ table {
 	h2 {
 		width: 85%;
 	}
-
+	
+	#text {
+		width: 85%;
+	}
+	h3 {
+		width: 85%;
+		text-align: left;
+	}
 	ul {
 		float: none;
 		display: block;
 		right: -165px; 
 		top: 10px;
-
 	}
 	
 	#bottom-div {
-		width: 100%;
-		height: auto;
+		height: 800px;
 
 	}
 	#main-content {
@@ -279,16 +288,46 @@ table {
 
 	#right-div {
 		width: 95%;
+		right: 15px;
 	}
 	.top-div {
 		padding-left: 0;
 		padding-right: 0;
-		height: 100%;
+	}
+	#about-img {
+		width: 557px;
+		height: 348px;
+	}
+	#right-div img {
+		position: relative;
+		right: 5px;
+	}
+
+	td img {
+		width: 220px;
+		height: 160px;
+	}
+	table {
+		width: 585px;
+		left: 22px;
+	}
+	h4 {
+		width: 220px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
 
 @media screen and (min-width:768px) {
+	body, html, #bottom-div, .top-div {
+		width: 768px;
+	}
+	h1{
+		max-width: 768px;
+	}
 
+	#main-content {
+		max-width: 768px;
 }
 
 @media screen and (min-width:980px) {
