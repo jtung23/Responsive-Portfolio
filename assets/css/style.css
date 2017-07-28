@@ -276,7 +276,9 @@ table {
 	}
 	
 	#bottom-div {
-		height: 800px;
+		height: 100%;
+		padding-bottom: 300px;
+
 
 	}
 	#main-content {
@@ -289,6 +291,7 @@ table {
 	#right-div {
 		width: 95%;
 		right: 15px;
+		display: block;
 	}
 	.top-div {
 		padding-left: 0;
@@ -301,6 +304,9 @@ table {
 	#right-div img {
 		position: relative;
 		right: 5px;
+	}
+	.portfolio640 {
+		padding-bottom: 0px;
 	}
 
 	td img {
@@ -322,14 +328,119 @@ table {
 	body, html, #bottom-div, .top-div {
 		width: 768px;
 	}
-	h1{
-		max-width: 768px;
-	}
-
+	
 	#main-content {
 		max-width: 768px;
-}
+		width: 90%;
+	}
+
+	#right-div {
+		width: 90%;
+		float: left;
+		left: 10px;
+	}
+
+	.top-div {
+		display: inline;
+	}
+	h1 {
+		width: 30%;
+		left: 15px;
+	}
+	h2 {
+		width: 85%;
+	}
+
+	h3 {
+		width: 85%;
+	}
+	ul {
+		display: inline;
+		float: right;
+		position: relative;
+		top: -31px;
+		left: -35px;
+	}
+
+	#about-img {
+		width: 240px;
+		height: 320px;
+	}
+
+	#footer {
+		width: 698px;
+	}
+
+	td img {
+		width: 300px;
+		height: 220px;
+	}
+	table {
+		width: 585px;
+		left: 22px;
+	}
+	h4 {
+		width: 300px;
+	}
+	.portfolio640 {
+		padding-bottom: 20px;
+	}
 
 @media screen and (min-width:980px) {
-	
+	body, html, #bottom-div, .top-div {
+		width: 980px;
+	}
+
+	h1 {
+		margin-left: 10%;
+	}
+	ul {
+		left: -58px;
+	}
+	#main-content {
+		width: 40%;
+		display: inline-block;
+		float: left;
+		margin-left: 10%;
+	}
+
+	#main-content img {
+		width: 40%;
+		height: 40%;
+		display: block;
+	}
+
+	h4 {
+		width: 40%;
+		padding: 0px;
+	}
+
+	table {
+		width: 60%;
+
+
+		
+		border-spacing: 0px;
+	}
+	h2 {
+		width: 80%;
+	}
+	#right-div {
+		display: inline-block;
+		float: left;
+		width: 25%;
+		margin-left: 10%;
+	}
+
+	h3 {
+		width: 65%;
+	}
+	#bottom-div {
+		height: 600px;
+		padding-bottom: 200px;		
+	}
+	#footer {
+		width: 910px;
+	}
+
 }
